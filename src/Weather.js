@@ -35,10 +35,7 @@ export default function Search() {
         />
         <input type="submit" value="search" />
       </form>
-      <small>
-        <a href="https://github.com/Ltran574/weather-app">Open source code</a>
-        by Laura Tran
-      </small>
+     
     </div>
   );
 
