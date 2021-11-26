@@ -7,11 +7,12 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          Weather Search
-          <Weather />
+          <Weather defaultCity="Sydney" />
         </header>
         <footer>
-          <a href="https://github.com/Ltran574/weather-app">Open source code</a>
+          <a href="https://github.com/Ltran574/weather-app">
+            Open source code{" "}
+          </a>
           by Laura Tran
         </footer>
       </div>
