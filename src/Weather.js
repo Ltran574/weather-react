@@ -45,8 +45,7 @@ export default function Weather(props) {
             <div className="row">
               <div className="col-9">
                 <input
-                  type="text"
-                  id="city-input"
+                  type="search"
                   placeholder="Type a city... "
                   className="form-control me-3"
                   autoFocus="on"
@@ -58,7 +57,6 @@ export default function Weather(props) {
                   type="submit"
                   value="Search"
                   button
-                  type="button"
                   className="btn btn-success"
                 />
               </div>
